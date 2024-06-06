@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelbee</title>
+
+    <!-- start-css-link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- end-css-link -->
+
+    <!-- start-google-font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <!--stop-google-font-link -->
+
+    <!-- start-icon-link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- stop-icon-link -->
+
+
+
+
+<!-- slick-slider-css-link -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-1.8.1/slick/slick-theme.css" />
+
+</head>
+
+<body>
+    <!-- start-header-section -->
+    <header class="section header-section">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="logo"><img src="./img/logo.png" alt=""></div>
+                </div>
+                <div class="column">
+                    <nav class="navigation">
+                        <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+                        <ul class="menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="package.html">Places</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="nav-btn"> <a href="#" class="btn">join with us</a></div>
+                    </nav>
+                    <button class="h-brgr"><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- stop-header-section -->
+
+    <main class="site-content">
+        <!-- start-hero-section -->
+        <section class="section hero-section">
+            <div class="container">
+                <div class="hero-bg-img">
+                    <div class="hero-box">
+                        <div class="hero-btn">
+                            <a href="#">Travel Agency</a>
+                        </div>
+                        <div class="hero-text">
+                            <h1>
+                                To Dream Locations <br/>
+                            </h1>
+                        </div>
+                        <div class="hero-coustomer-box">
+                            <div class="row">
+                                <img src="./img/Group 12.svg" alt="">
+                                <h5>Happy Customer</h5>
+                            </div>
+                        </div>
+                        <div class="hero-search-bar">
+                            <div class="row">
+                                <div class="column-11">
+                                    <div class="row">
+                                        <i class="fa-solid fa-magnifying-glass src-icon"></i>
+                                        <form action="#">
+                                            <input type="search" placeholder="Look For Your Desired Locations" />
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="column-12">
+                                    <div class="row">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <select id="country" name="country">
+                                            <option value="">New York, USA</option>
+                                            <option value="">Select a country</option>
+                                            <option value="AF">Afghanistan</option>
+                                            <option value="AL">Albania</option>
+                                            <option value="DZ">Algeria</option>
+                                            <!-- Add more countries here -->
+                                        </select>
+                                        <button class="src-btn">Search Place</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- stop-hero-section -->
+        <!-- star-services-section -->
+        <section class="section services-section">
+            <div class="container">
+                <div class="row">
+                    <div class="column-1">
+                        <div class="service-text">
+                            <h2>Travel For The Best Experience 🛫</h2>
+                        </div>
+                    </div>
+                    <div class="column-2">
+                        <div class="row">
+                            <div class="column-3">
+                                <div class="service-box">
+                                    <img src="./img/service-1.svg" alt="sercice">
+                                    <h4>Attractive Tour
+                                        Packages</h4>
+                                </div>
+                            </div>
+                            <div class="column-4">
+                                <div class="service-box">
+                                    <img src="./img/service-2.svg" alt="sercice">
+                                    <h4>Attractive Tour
+                                        Packages</h4>
+                                </div>
+                            </div>
+                            <div class="column-5">
+                                <div class="service-box">
+                                    <img src="./img/service-3.svg" alt="sercice">
+                                    <h4>Attractive Tour
+                                        Packages</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- stop-services-section -->
+        <!-- start-best-location-section -->
+        <section class="section best-location-section">
+
+            <div class="container">
+                <div class="row">
+                    <div class="column-13">
+                        <h2>Explore Top Locations</h2>
+
+                    </div>
+
+                    <div class="column-14">
+                        <div class="row">
+                            <button class="left-arrow"  type="button"><i class="fa-solid fa-arrow-left"></i></button>
+                            <button class="right-arrow" type="button"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- make-sliding -->
+            <div class="slider">
+                <div class="slider-itm">
+                    <div class="img-box">
+                        <img src="./img/slider-img-1.svg" alt="">
+                    </div>
+                    <div class="text-box">
+                        <h6>Oia, Greece</h6>
+                        <div class="row">
+                            <span class="flw"><img src="./img/str.svg" alt=""></span>
+                            <span class="rv-text">4.8 <span style="color: #A4A6BD;">(1.2k Reviews)</span></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="slider-itm">
+                    <div class="img-box">
+                        <img src="./img/scr-2.svg" alt="">
+                    </div>
+                    <div class="text-box">
+                        <h6>Oia, Greece</h6>
+                        <div class="row">
+                            <span class="flw"><img src="./img/str.svg" alt=""></span>
+                            <span class="rv-text">4.8 <span style="color: #A4A6BD;">(1.2k Reviews)</span></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="slider-itm">
+                    <div class="img-box">
+                        <img src="./img/scr-3.svg" alt="">
+                    </div>
+                    <div class="text-box">
+                        <h6>Oia, Greece</h6>
+                        <div class="row">
+                            <span class="flw"><img src="./img/str.svg" alt=""></span>
+                            <span class="rv-text">4.8 <span style="color: #A4A6BD;">(1.2k Reviews)</span></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="slider-itm">
+                    <div class="img-box">
+                        <img src="./img/slider-img-1.svg" alt="">
+                    </div>
+                    <div class="text-box">
+                        <h6>Oia, Greece</h6>
+                        <div class="row">
+                            <span class="flw"><img src="./img/str.svg" alt=""></span>
+                            <span class="rv-text">4.8 <span style="color: #A4A6BD;">(1.2k Reviews)</span></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="slider-itm">
+                    <div class="img-box">
+                        <img src="./img/scr-2.svg" alt="">
+                    </div>
+                    <div class="text-box">
+                        <h6>Oia, Greece</h6>
+                        <div class="row">
+                            <span class="flw"><img src="./img/str.svg" alt=""></span>
+                            <span class="rv-text">4.8 <span style="color: #A4A6BD;">(1.2k Reviews)</span></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="slider-itm">
+                    <div class="img-box">
+                        <img src="./img/slider-img-1.svg" alt="">
+                    </div>
+                    <div class="text-box">
+                        <h6>Oia, Greece</h6>
+                        <div class="row">
+                            <span class="flw"><img src="./img/str.svg" alt=""></span>
+                            <span class="rv-text">4.8 <span style="color: #A4A6BD;">(1.2k Reviews)</span></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="slider-itm">
+                    <div class="img-box">
+                        <img src="./img/scr-3.svg" alt="">
+                    </div>
+                    <div class="text-box">
+                        <h6>Oia, Greece</h6>
+                        <div class="row">
+                            <span class="flw"><img src="./img/str.svg" alt=""></span>
+                            <span class="rv-text">4.8 <span style="color: #A4A6BD;">(1.2k Reviews)</span></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="slider-itm">
+                    <div class="img-box">
+                        <img src="./img/slider-img-1.svg" alt="">
+                    </div>
+                    <div class="text-box">
+                        <h6>Oia, Greece</h6>
+                        <div class="row">
+                            <span class="flw"><img src="./img/str.svg" alt=""></span>
+                            <span class="rv-text">4.8 <span style="color: #A4A6BD;">(1.2k Reviews)</span></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="slider-itm">
+                    <div class="img-box">
+                        <img src="./img/slider-img-1.svg" alt="">
+                    </div>
+                    <div class="text-box">
+                        <h6>Oia, Greece</h6>
+                        <div class="row">
+                            <span class="flw"><img src="./img/str.svg" alt=""></span>
+                            <span class="rv-text">4.8 <span style="color: #A4A6BD;">(1.2k Reviews)</span></span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+        <!-- stop-best-location-section -->
+        <!-- start-destinations-section -->
+        <section class="section destinations-section">
+            <div class="container">
+                <div class="row">
+                    <div class="column-6">
+                        <div class="text-box">
+                            <h2>
+                                Experience Your   Imaginations
+                            </h2>
+                        </div>
+                        <div class="timer-box">
+                            <div class="row">
+                                <div class="column-6-1">
+                                    <div class="timer">
+                                        <span class="stat-number">10</span><span>+</span>
+                                        <div class="timer-data">
+                                            <h4>Years of
+                                                Experiences</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column-6-2">
+                                    <div class="timer">
+                                        <span class="stat-number">434</span><span>+</span>
+                                        <div class="timer-data">
+                                            <h4>Years of
+                                                Experiences</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column-6-3">
+                                    <div class="timer">
+                                        <span class="stat-number">35</span><span>K+</span>
+                                        <div class="timer-data">
+                                            <h4>Years of
+                                                Experiences</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-7">
+                        <div class="img-box">
+                            <div class="main-img"><img src="./img/Rectangle 21.svg" alt=""></div>
+                            <div class="sub-img"><img src="./img/Frame 28.svg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- stop-destinations-section -->
+        <!-- start-Choice-Places-section -->
+        <section class="section choice-places-section">
+            <div class="container">
+                <div class="text-box">
+                    <h2>Look At All Of The Wonderful Places 
+                        We've Taken Travelers</h2>
+                </div>
+                <div class="img-grid">
+                    <div class="itm nrml"><img src="./img/img-1.svg" alt=""></div>
+                    <div class="itm h-cover-2-zoon"><img src="./img/img-2.svg" alt=""></div>
+                    <div class="itm r-cover-2-zoon"><img src="./img/img-3.svg" alt=""></div>
+                    <div class="itm"><img src="./img/img-4.svg" alt=""></div>
+                    <div class="itm"><img src="./img/img-5.svg" alt=""></div>
+                </div>
+            </div>
+
+        </section>
+        <!-- stop-choice-places-section -->
+        <!-- start-review-section -->
+        <section class="section review-section">
+            <div class="container">
+                <div class="row">
+                    <div class="column-13">
+                        <h2>Travelers Review After
+                            Successful Tours</h2>
+
+                    </div>
+
+                    <div class="column-14">
+                        <div class="row">
+                            <button class="left-arrow" type="button"><i class="fa-solid fa-arrow-left"></i></button>
+                            <button class="right-arrow" type="button"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="slider-two">
+                <div class="slider-itm">
+                    <div class="row">
+                        <img src="./img/man.svg" alt="">
+                        <div class="name">
+                            <h5>Lorem Torrey</h5>
+                            <h6>Digital Marketer</h6>
+                        </div>
+                    </div>
+                    <p>Everything went smoothly as planned, and the transfers arrived on time. It's wonderful to travel on vacation to a new location and not have to worry about transportation or reservations. All email correspondence was satisfactory.</p>
+                    <img src="./img/Group 44.svg" alt="" class="str">
+                </div>
+                <div class="slider-itm">
+                    <div class="row">
+                        <img src="./img/man.svg" alt="">
+                        <div class="name">
+                            <h5>Lorem Torrey</h5>
+                            <h6>Digital Marketer</h6>
+                        </div>
+                    </div>
+                    <p>Everything went smoothly as planned, and the transfers arrived on time. It's wonderful to travel on vacation to a new location and not have to worry about transportation or reservations. All email correspondence was satisfactory.</p>
+                    <img src="./img/Group 44.svg" alt="" class="str">
+                </div>
+                <div class="slider-itm">
+                    <div class="row">
+                        <img src="./img/man.svg" alt="">
+                        <div class="name">
+                            <h5>Lorem Torrey</h5>
+                            <h6>Digital Marketer</h6>
+                        </div>
+                    </div>
+                    <p>Everything went smoothly as planned, and the transfers arrived on time. It's wonderful to travel on vacation to a new location and not have to worry about transportation or reservations. All email correspondence was satisfactory.</p>
+                    <img src="./img/Group 44.svg" alt="" class="str">
+                </div>
+                <div class="slider-itm">
+                    <div class="row">
+                        <img src="./img/man.svg" alt="">
+                        <div class="name">
+                            <h5>Lorem Torrey</h5>
+                            <h6>Digital Marketer</h6>
+                        </div>
+                    </div>
+                    <p>Everything went smoothly as planned, and the transfers arrived on time. It's wonderful to travel on vacation to a new location and not have to worry about transportation or reservations. All email correspondence was satisfactory.</p>
+                    <img src="./img/Group 44.svg" alt="" class="str">
+                </div>
+                <div class="slider-itm">
+                    <div class="row">
+                        <img src="./img/man.svg" alt="">
+                        <div class="name">
+                            <h5>Lorem Torrey</h5>
+                            <h6>Digital Marketer</h6>
+                        </div>
+                    </div>
+                    <p>Everything went smoothly as planned, and the transfers arrived on time. It's wonderful to travel on vacation to a new location and not have to worry about transportation or reservations. All email correspondence was satisfactory.</p>
+                    <img src="./img/Group 44.svg" alt="" class="str">
+                </div>
+                <div class="slider-itm">
+                    <div class="row">
+                        <img src="./img/man.svg" alt="">
+                        <div class="name">
+                            <h5>Lorem Torrey</h5>
+                            <h6>Digital Marketer</h6>
+                        </div>
+                    </div>
+                    <p>Everything went smoothly as planned, and the transfers arrived on time. It's wonderful to travel on vacation to a new location and not have to worry about transportation or reservations. All email correspondence was satisfactory.</p>
+                    <img src="./img/Group 44.svg" alt="" class="str">
+                </div>
+                <div class="slider-itm">
+                    <div class="row">
+                        <img src="./img/man.svg" alt="">
+                        <div class="name">
+                            <h5>Lorem Torrey</h5>
+                            <h6>Digital Marketer</h6>
+                        </div>
+                    </div>
+                    <p>Everything went smoothly as planned, and the transfers arrived on time. It's wonderful to travel on vacation to a new location and not have to worry about transportation or reservations. All email correspondence was satisfactory.</p>
+                    <img src="./img/Group 44.svg" alt="" class="str">
+                </div>
+        </section>
+        <!-- stop-review-section -->
+        <!-- start-blog-section -->
+        <section class="section blog-section">
+            <div class="container">
+                <div class="text-box">
+                    <h2>Explore Our Tour Blogs</h2>
+                    <a href="#">Show All Post</a>
+                </div>
+                <div class="row">
+                    <div class="column-8">
+                        <div class="blog-box">
+                            <div class="blog-img"><img src="./img/blg-1.svg" alt=""></div>
+                            <div class="blog-text">
+                                <div class="row">
+                                    <div class="column-8-1">
+                                        <div class="itm-cnter">
+                                            <img src="./img/Ellipse 1.svg" alt=""><span>Mary R. Torrey</span>
+                                        </div>
+                                    </div>
+                                    <div class="column-8-2">
+                                        <div class="itm-cnter">
+                                            <img src="./img/Frame.svg" alt=""><span>2 Min Read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="blg-category">Explore Europe With The Minimum Budget</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-9">
+                        <div class="blog-box">
+                            <div class="blog-img"><img src="./img/blg-1.svg" alt=""></div>
+                            <div class="blog-text">
+                                <div class="row">
+                                    <div class="column-9-1">
+                                        <div class="itm-cnter">
+                                            <img src="./img/Ellipse 1.svg" alt=""><span>Mary R. Torrey</span>
+                                        </div>
+                                    </div>
+                                    <div class="column-9-2">
+                                        <div class="itm-cnter">
+                                            <img src="./img/Frame.svg" alt=""><span>2 Min Read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="blg-category">Explore Europe With The Minimum Budget</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-10">
+                        <div class="blog-box">
+                            <div class="blog-img"><img src="./img/blg-1.svg" alt=""></div>
+                            <div class="blog-text">
+                                <div class="row">
+                                    <div class="column-10-1">
+                                        <div class="itm-cnter">
+                                            <img src="./img/Ellipse 1.svg" alt=""><span>Mary R. Torrey</span>
+                                        </div>
+                                    </div>
+                                    <div class="column-10-2">
+                                        <div class="itm-cnter">
+                                            <img src="./img/Frame.svg" alt=""><span>2 Min Read</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="blg-category">Explore Europe With The Minimum Budget</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- stop-blog-section -->
+        <!-- start-tour-packages-section -->
+        <section class="section tour-package-section">
+            <div class="container">
+                <div class="box">
+                    <h1>Ready To Travel With Us On Your Next Trip?</h1>
+                    <a href="#">See Tour Packages</a>
+                </div>
+            </div>
+        </section>
+        <!-- stop-tour-packages-section -->
+    </main>
+
+    <!-- start-footer-section -->
+    <footer class="section footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="logo"><img src="./img/logo.png" alt=""></div>
+                </div>
+                <div class="column">
+                    <div class="footer-travel-withb-box">
+                        <h4>Travel Withb Us</h4>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#"> Privacy Policy</a></li>
+                            <li><a href="#"> FAQ’s</a></li>
+                            <li><a href="#"> Contact</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="footer-contact-box">
+                        <h4>Contact Us</h4>
+                        <p class="happy-valley"><a href="#">9300 SE 82nd Ave Orego, Happy</a></p>
+                        <span class="phone-number"><a href="#">+88440-550-8763</a></span>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="footer-quick-link-box">
+                        <h4>Quick Link</h4>
+                        <ul>
+                            <li><a href="#">Style Guide</a></li>
+                            <li><a href="#"> Career</a></li>
+                            <li><a href="#"> Help Text</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="footer-social-share-box">
+                        <h4>Social Share</h4>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- stop-footer-section -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./slick/slick-1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>
